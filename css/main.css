@@ -10,6 +10,12 @@ h1 {
   letter-spacing: .1rem;
 }
 
+h2 {
+  font-size: 1.8rem;
+    line-height: 0;
+    letter-spacing: 0rem;
+}
+
 h3 {
   font-weight: 400;
   font-size: 1.6rem;
@@ -25,6 +31,27 @@ p {
 
 /* Main Content Area */
 
+.subhead{
+  margin-top: -12px;
+}
+
+header{
+  display: block;
+  width: 100%;
+  background-image: url(../images/magi-star-header.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header.stars{
+  height: 500px;
+}
+
+header.stars-small{
+  height: 100px;
+}
+
 .logo{
   display: block;
   width: 140px;
@@ -32,18 +59,11 @@ p {
   padding: 150px 0 0 0;
 }
 
-.subhead{
-  margin-top: -12px;
-}
-
-header{
+.logo-small{
   display: block;
-  height: 500px;
-  width: 100%;
-  background-image: url(../images/magi-star-header.jpg);
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 50px;
+  margin: 0 auto;
+  padding: 25px 0 0 0;
 }
 
 section{
@@ -53,6 +73,13 @@ section{
 .main-body{
   padding-top: 50px;
   text-align: center;
+}
+
+.contact-section{
+  /* background: white; */
+  /* background: rgba(39,27,43,1); */
+  background: #eee;
+  border-top: 1px solid #ccc;
 }
 
 .description-copy{
