@@ -1,0 +1,113 @@
+body{
+  background: rgba(39,27,43,1);
+}
+
+/* Typography */
+
+h1 {
+  font-size: 2.8rem;
+  line-height: 1;
+  letter-spacing: .1rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  letter-spacing: 0;
+}
+
+p {
+  font-size: 1.1em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+/* Main Content Area */
+
+.logo{
+  display: block;
+  width: 140px;
+  margin: 0 auto;
+  padding: 150px 0 0 0;
+}
+
+.subhead{
+  margin-top: -12px;
+}
+
+header{
+  display: block;
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/magi-star-header.jpg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section{
+  background: white;
+}
+
+.main-body{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.description-copy{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+a.donate-btn{
+  display: block;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(212, 175, 55, 1);
+  border: 1px solid rgba(96, 80, 25, .6);
+  border-radius: 50px;
+  background-clip: padding-box;
+}
+
+.cc-info{
+  margin-bottom: 10px;
+  font-size: .8em;
+  color: #aaaaaa;
+}
+
+.cc-icons{
+  height: 20px;
+  margin-bottom:50px;
+}
+
+footer{
+  height: 80px;
+  margin-bottom: 0;
+}
+
+footer p{
+  padding: 10px 0 0 0;
+  font-size: .9em;
+  text-align: center;
+  color: rgba(153, 153, 153, 1);
+}
+
+footer p a{
+  color: rgba(153, 153, 153, 1);
+}
+
+footer p a:hover{
+  color: rgba(212, 175, 55, 1);
+}
+
+/* Utility classes */
+
+.caps{
+   text-transform: uppercase;
+ }
