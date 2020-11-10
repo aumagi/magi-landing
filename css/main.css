@@ -35,6 +35,10 @@ p {
   margin-top: -12px;
 }
 
+h2.tagline{
+  margin-bottom: 60px;
+}
+
 header{
   display: block;
   width: 100%;
@@ -146,8 +150,8 @@ a.donate-btn:hover{
 
 .cc-info{
   margin-bottom: 10px;
-  font-size: .8em;
-  color: #aaaaaa;
+  font-size: .9em;
+  color: #333;
 }
 
 .cc-icons{
@@ -179,4 +183,8 @@ footer p a:hover{
 
 .caps{
    text-transform: uppercase;
+ }
+
+ .bold{
+   font-weight:bold;
  }
